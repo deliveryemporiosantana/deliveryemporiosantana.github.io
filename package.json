@@ -1,8 +1,8 @@
 {
-  "name": "menu_emporio",
+  "name": "menu_emporio_delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emporiosantana.github.io",
+  "homepage": "https://deliveryemporiosantana.github.io/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
