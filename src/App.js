@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 import './App.css';
 
-import headerResponse from './header.json';
-import sectionResponse from './sections.json';
-import menuItemsResponse from './menu-items.json';
+// import headerResponse from './header.json';
+// import sectionResponse from './sections.json';
+// import menuItemsResponse from './menu-items.json';
 
 import deliveryHeader from './deliveryHeader.json'
 import deliveryMenu from './deliveryMenu.json'
@@ -28,16 +28,16 @@ function App() {
 		setIsArrowButtonVisible((winScroll >= 300));
 	}
 
-	const renderMainMenu = () => {
-		return (
-			<Layout 
-				menuItems={menuItemsResponse.menu.items} 
-				sections={sectionResponse.sections} 
-				showButtonGoHeader={isArrowButtonVisible} 
-				header={headerResponse.header}
-			/>
-		)
-	}
+	// const renderMainMenu = () => {
+	// 	return (
+	// 		<Layout 
+	// 			menuItems={menuItemsResponse.menu.items} 
+	// 			sections={sectionResponse.sections} 
+	// 			showButtonGoHeader={isArrowButtonVisible} 
+	// 			header={headerResponse.header}
+	// 		/>
+	// 	)
+	// }
 
 	const renderDeliveryMenu = () => {
 		return (
@@ -53,8 +53,8 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={renderMainMenu()} />
-				<Route path="/delivery" element={renderDeliveryMenu()} />
+				{/* <Route path="/" element={renderMainMenu()} /> */}
+				<Route path="/" element={renderDeliveryMenu()} />
 			</Routes>
 		</BrowserRouter>		
 	);
