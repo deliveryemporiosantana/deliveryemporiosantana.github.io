@@ -10,8 +10,7 @@ import deliveryMenu from './deliveryMenu.json'
 import deliverySections from './deliverySections.json'
 
 import Layout from "./modules/Layout";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
-import Teste from "./components/teste";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
 	const [isArrowButtonVisible, setIsArrowButtonVisible] = useState(false);
@@ -52,12 +51,12 @@ function App() {
 	}
 
 	return (
-		<HashRouter>
+		<Router>
 			<Routes>
 				<Route path="/" element={renderMainMenu()} />
 				<Route path="/delivery" element={renderDeliveryMenu()} />
 			</Routes>
-		</HashRouter>		
+		</Router>		
 	);
 }
 
