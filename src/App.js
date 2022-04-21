@@ -52,7 +52,7 @@ function App() {
 	}
 
 	return (
-		<HashRouter basename="/">
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={renderMainMenu()} />
 				<Route path="/delivery" element={renderDeliveryMenu()} />
