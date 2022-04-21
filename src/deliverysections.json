@@ -1,6 +1,43 @@
 {
     "sections": [
         {
+            "id": "sugestoes",
+            "name": "Sugestões da Semana",
+            "products": [
+                {
+                    "name": "Caldinho de Feijão do Empório",
+                    "description": "Delicioso caldinho de feijão, com calabresa, bacon e cheiro verde, acompanhado de torresmo sequinho e frito na hora.",
+                    "value": 29.90
+                }
+            ]
+        },
+        {
+            "id": "porcoesfrias",
+            "name": "Porções Frias",
+            "products": [
+                {
+                    "name": "Tábua de frios",
+                    "description": "Parmesão, provolone, gorgonzola, salame, copa, castanha de caju, azeitona, damasco e molho pesto.",
+                    "value": 85.90
+                },
+                {
+                    "name": "Salaminho Italiano",
+                    "description": "Autêntico salame italiano acompanhado de fatias de limão.",
+                    "value": 19.90
+                },
+                {
+                    "name": "Copa",
+                    "description": "Copa fatiada acompanhada de fatias de limão.",
+                    "value": 21.90
+                },
+                {
+                    "name": "Salada do Empório",
+                    "description": "Rúcula, tomate cereja, palmito e molho pesto.",
+                    "value": 29.90
+                }
+            ]
+        },
+        {
             "id": "porcoesquentes",
             "name": "Petiscos Quentes",
             "products": [

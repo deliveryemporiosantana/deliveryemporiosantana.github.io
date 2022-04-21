@@ -2,6 +2,18 @@
     "menu": {
       "items": [
         {
+          "srcIcon": "./images/promocao.png",
+          "description": "ícones de um megafone ilustrando sa sugestões da semana",
+          "name": "Sugestões da Semana",
+          "section": "sugestoes"
+        },
+        {
+          "srcIcon": "./images/1.png",
+          "description": "ícones de um queijo ilustrando a aba de porções frias",
+          "name": "Porções frias",
+          "section": "porcoesfrias"
+        },
+        {
           "srcIcon": "./images/2.png",
           "description": "ícones de batata frita ilustrando a aba de porções quentes",
           "name": "Porções quentes",
